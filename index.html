@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Bootstrap 101 Template</title>
+
+	<!-- Bootstrap -->
+  <link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-sm navbar-dark bg-light d-flex justify-content-center">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon">☰</span>
+  </button>
+		<div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+			<ul class="navbar">
+				<li class="nav-item active text-uppercase"><a href="#personal" class="nav-link scroll">Личная информация</a></li>
+				<li class="nav-item text-uppercase"><a href="#experience" class="nav-link scroll">Опыт</a></li>
+				<li class="nav-item text-uppercase"><a href="#aboutMe" class="nav-link scroll">О себе</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container-fluid profile text-center">
+		<div class="container">
+			<h1 class="profile__caption">Анкета</h1>
+			<div class="wrapImg" id="personal">
+				<img class="img" src="img/book.png" alt="book">
+			</div>
+			<h2 class="">Личная информация</h2>
+			<form>
+				<div class="form-row d-flex justify-content-center">
+					<div class="col-12 form-group">
+						<input class="name form-control form-control-lg text-center effect-22 input-effect" type="text" value="Роменский Виталий Анатольевич">
+						<label>ФИО</label>
+					</div>
+					<div class="col-12 col-sm-7 form-group">
+						<select class="custom-select custom-select-lg form-control-lg_first" id="inlineFormCustomSelect" >
+							<option selected disabled>Год рождения</option>
+							<option value="1">1998</option>
+							<option value="2">1997</option>
+							<option value="3">1996</option>
+							<option value="4">1995</option>
+							<option value="5">1994</option>
+							<option value="6">1993</option>
+							<option value="7">1992</option>
+							<option value="8" selected>1991</option>
+							<option value="9">1990</option>
+							<option value="10">1989</option>
+						</select>
+					</div>
+					<div class="col-12 form-group">
+						<input type="text" class="form-control form-control-lg text-center effect-22 input-effect" value="Днепр">
+						<label>Место проживания</label>
+					</div>
+					<div class="col-12 form-group">
+						<input type="text" class="form-control form-control-lg text-center effect-22 input-effect" value="designer24.">
+						<label>Skype</label>
+					</div>
+					<div class="col-12 form-group">
+						<input type="emal" class="form-control form-control-lg text-center effect-22 input-effect" value="designer24@i.ua">
+						<label>E-mail</label>
+					</div>
+					
+					<div class="wrapImg col-12" id="experience">
+						<img class="img" src="img/about.png" alt="about">
+					</div>
+					<h2 class="col-12">Расскажите о своем опыте</h2>
+					
+					<div class="myExperience col-12 col-sm-4 text-left">
+						<div class="custom-control custom-checkbox form-group">
+							<input type="checkbox" class="custom-control-input" id="customCheck1" checked>
+							<label class="custom-control-label" for="customCheck1">БЭМ/OOCSS</label>
+						</div>
+						<div class="custom-control custom-checkbox form-group">
+							<input type="checkbox" class="custom-control-input" id="customCheck2" checked>
+							<label class="custom-control-label" for="customCheck2">Stylus/LESS/SASS</label>
+						</div>
+						<div class="custom-control custom-checkbox form-group">
+							<input type="checkbox" class="custom-control-input" id="customCheck3">
+							<label class="custom-control-label" for="customCheck3">Работаю с SVG</label>
+						</div>
+					</div>
+					
+					<div class="myExperience col-12 col-sm-4 text-left">
+						<div class="custom-control custom-checkbox form-group">
+							<input type="checkbox" class="custom-control-input" id="customCheck4">
+							<label class="custom-control-label" for="customCheck4">Верстаю семантично</label>
+						</div>
+						<div class="custom-control custom-checkbox form-group">
+							<input type="checkbox" class="custom-control-input" id="customCheck5" checked>
+							<label class="custom-control-label" for="customCheck5">ES2015/ES2016</label>
+						</div>
+						<div class="custom-control custom-checkbox form-group">
+							<input type="checkbox" class="custom-control-input" id="customCheck6" checked>
+							<label class="custom-control-label" for="customCheck6" >Gulp/GRUNT</label>
+						</div>
+					</div>
+					
+					<div class="myExperience col-12 col-sm-4 text-left">
+						<div class="custom-control custom-checkbox form-group">
+							<input type="checkbox" class="custom-control-input" id="customCheck7">
+							<label class="custom-control-label" for="customCheck7">Webpack</label>
+						</div>
+						<div class="custom-control custom-checkbox form-group">
+							<input type="checkbox" class="custom-control-input" id="customCheck8" checked>
+							<label class="custom-control-label" for="customCheck8">jQuery</label>
+						</div>
+						<div class="custom-control custom-checkbox form-group">
+							<input type="checkbox" class="custom-control-input" id="customCheck9" checked>
+							<label class="custom-control-label" for="customCheck9">Использую Git</label>
+						</div>
+					</div>
+				</div>
+
+				<div class="wrapImg col-12" id="aboutMe">
+					<img class="img" src="img/aboutMe.png" alt="about me">
+				</div>
+				<h2 class="col-12">Расскажите о себе</h2>
+				<p class="col-12">Напишите несколько предложений, чем привлекла наша вакансия и что вы ожидаете от работы у нас.</p>
+				<textarea class="col-12 col-sm-7" name="about" id="" cols="30" rows="10" placeholder="Понравилась тем, что...">Меня привлекло то, что у Вас развивающаяся компания. Мне было бы очень интересно работать в таком месте. Еще мне понравилось качественно оформленное тестовое задание.
+У Вас я ожидаю интересной работы и саморазвития для себя. Применрно из 10 часов работы - около 3 часов заняло вникнуть в Bootstrap 4 (посколку раньше я его не юзал), еще примерно 2 часа на всплывающий label в input-e. Остальное время ушло на изучение т/з, макета, разнообразные выравнивания, media запросы, шрифты и пр. К сожалению не все пункты из т/з соблюдены, а именно: Стараемся максимально настроить конфигурационный файл _variables.scss и подключить только те компоненты, которые нужны для задания.
+●	Собираем все сборщиком (gulp, webpack, laravel-mix) 
+●	полученная страница должна корректно отображаться в браузерах:
+●	Internet Explorer 10+;
+●	Mobile Safari (iPhone, iPad).
+Я знаком с Gulp, но им не пользуюсь и кроссбраузерностью не успел занятья, так как Bootstrap 4 в Safari и IE неожиданно для меня не совсем корректно работает.
+P.S. Готов обучаться и совершенствоваться.
+</textarea>
+				<div class="btnWrap">
+					<button type="submit" class="btn btn-primary">Готово</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/retina.min.js"></script>
+	<script src="js/script.js"></script>
+	</body>
+</html>

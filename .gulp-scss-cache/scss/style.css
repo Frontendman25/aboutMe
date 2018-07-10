@@ -1,0 +1,127 @@
+@import url(../node_modules/bootstrap/dist/css/bootstrap.min.css);
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(../fonts/roboto/Roboto-Regular.ttf); }
+@font-face {
+  font-family: "Roboto-Light";
+  src: url(../fonts/roboto/Roboto-Light.ttf); }
+@font-face {
+  font-family: "Roboto-Thin";
+  src: url(../fonts/roboto/Roboto-Thin.ttf); }
+body {
+  padding-bottom: 20px;
+  font-family: "Roboto-Light"; }
+
+h1, h2 {
+  font-weight: 100; }
+
+h1 {
+  margin-bottom: 60px;
+  font-size: 70px;
+  font-family: "Roboto-Thin"; }
+
+h2 {
+  margin-bottom: 30px; }
+
+p {
+  margin-bottom: 30px; }
+
+.custom-checkbox .custom-control-label::before {
+  border: 1px solid #c0c8db;
+  background-color: #fff; }
+
+.navbar-toggler-icon {
+  color: #494949; }
+
+ul {
+  margin-bottom: 0; }
+
+textarea {
+  margin-bottom: 70px;
+  border-radius: .3rem;
+  font-family: "Roboto-Regular"; }
+
+input {
+  color: #1c1c1c;
+  font-size: 20px;
+  font-family: "Roboto-Regular"; }
+
+label {
+  margin-bottom: 0;
+  font-size: 24px;
+  font-family: "Roboto-Regular"; }
+
+option {
+  font-size: 20px;
+  color: #435993; }
+
+a {
+  color: #494949; }
+
+.custom-select-lg {
+  height: 55px;
+  padding-top: 0px;
+  color: #c8c8c8;
+  font-size: 24px; }
+
+.custom-control-label {
+  font-size: 16px;
+  font-family: "Roboto-Regular"; }
+
+.form-control-lg {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  font-size: 20px; }
+
+.form-control-lg_first {
+  font-size: 24px; }
+
+.nav-link {
+  font-size: 14px;
+  font-family: "Roboto-Light"; }
+
+.profile {
+  padding-top: 120px;
+  background: url(../img/bg.png) no-repeat;
+  background-size: contain; }
+
+.wrapImg {
+  margin-top: 60px;
+  margin-bottom: 15px; }
+
+.effect-22 {
+  position: relative;
+  background: transparent; }
+
+.effect-22 ~ label {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 10%;
+  font-size: 24px;
+  color: #aaa;
+  transition: 0.3s;
+  z-index: -1;
+  letter-spacing: 0.5px; }
+
+.effect-22:focus ~ label,
+.has-content.effect-22 ~ label {
+  top: 0;
+  left: 0;
+  font-size: 14px;
+  transition: 0.3s;
+  z-index: 10; }
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+/*==========  Mobile First Method  ==========*/
+/*==========  Desktop Method  ==========*/
+@media (max-width: 575.98px) {
+  .navbar {
+    flex-direction: column; }
+
+  .myExperience {
+    text-align: center !important; } }
+
+/*# sourceMappingURL=style.css.map */
